@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<!--Head-->
+
+<head>
+	<meta charset="utf-8">
+	<title>Instanews - NYT Reader</title>
+	<link rel="stylesheet" href="build/css/style.min.css">
+</head>
+
+<!--Body-->
+
+<body>
+    <div class="container">
+
+<!--HEADER (logo & search form)-->
+
+	  <header class="siteHeaderLarge">
+   
+      <div class="logoLarge">
+          <img src="assets/images/nyt-logo.svg" alt="New York Times Logo">
+      </div>
+      
+      <form class="searchForm" action="#" method="post">
+      	<div class="innerSearchForm">
+      		<p>Choose a Section</p>
+
+      	  <select class="sections" id="sections">
+
+           <option value> Sections...</option>
+           <option value="Travel">Travel</option>
+           <option value="Sports">Sports</option>
+           <option value="Politics">Politics</option>
+           <option value="Business">Business</option>
+           <option value="Science">Science</option>
+           <option value="World">World</option>
+
+      	  	
+      	  </select>
+      	</div>
+      </form>
+    </header>
+
+<!--Article Grid-->
+
+    <section class = "articleGrid">
+        <div class ="loader">
+        <img src ="assets/images/ajax-loader.gif" alt="loading">
+        </div>
+          <ul class= "articles">
+          </ul>
+    </section>
+
+<!--Footer-->
+
+	<footer class="siteFooter">
+		<div class="copyRight">
+			<p>© Copyright 2016 <span>instanews</span></p>
+		</div>
+	</footer>
+	</div>
+
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+.siteFooter {
+	@extend .flexCenter;
+	height: 10vh;
+	width:100%;
+	order: 2;
+	color:#c2c2c2;
+
+}
+
+@include desktop {
+	.siteFooter {
+	justify-content: flex-start;
+    padding-left: 2rem;
+ }
+}

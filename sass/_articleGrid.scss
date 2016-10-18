@@ -1,0 +1,52 @@
+.articles {
+	display: flex;
+	flex-flow: wrap;
+	align-items:flex-end;
+	width:100%;
+	height: auto;
+	margin-bottom: 10%;
+
+	li {
+	width: 100%;
+	
+
+    @include tablet {
+	  	width:50%;
+	  }
+	 @include desktop {
+	  	width: 25%;
+	  }
+	
+}
+	.article_images {
+	  height:400px;
+	  width:100%;
+	  background-position: 50%;
+	  background-size: cover;
+	  background-repeat: no-repeat;
+	  color:white;
+	  display:flex;
+	  
+	}
+
+
+	  .abstract {
+	  	align-self:flex-end;
+	  	background-color: rgba(0,0,0,0.55);
+	  	width:100%;
+	  	justify-content: center;
+	  	line-height:1.5rem;
+	  	padding-left:.5rem;
+	  	padding-right: .5rem;
+	  	padding-bottom: .5rem;
+	  }
+
+	  
+
+	a {
+		text-decoration: none;
+	}
+
+
+}
+

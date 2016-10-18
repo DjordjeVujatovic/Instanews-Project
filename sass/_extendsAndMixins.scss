@@ -1,0 +1,29 @@
+/* Extend */
+.font {
+	font-family: 'open_sans';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 16px;
+}
+
+.flexCenter {
+	display: flex;
+	justify-content: center;
+}
+
+/*Mixins*/
+
+$tablet: 600px;
+$desktop: 1000px;
+
+@mixin tablet {
+	@media (min-width: $tablet) {
+		@content;
+	}
+}
+
+@mixin desktop {
+	@media (min-width: $desktop) {
+		@content;
+	}
+}
