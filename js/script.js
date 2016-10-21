@@ -27,15 +27,15 @@ $( document ).ready(function() {
 				var articleLink = value.url;
 				var abstract = value.abstract;
 				var multimedia = value.multimedia;
-				
+
 				if (multimedia.length >=5) {
 					content += '<li>';
 					content += '<a href="'+ articleLink + '" target="_blank">';
 					content += '<div class="inner-article">';
 					content += '<div class="article_images" style="background-image:url('+multimedia[4].url+')">';
-				
+
 					content +='<p class = "abstract">' +abstract+ '</p>';
-					
+
 					content += '</div>';
 					content += '</div>';
 					content += '</a>';
@@ -44,9 +44,8 @@ $( document ).ready(function() {
 
 			})
 			$articles.append(content);
-			
-		})
-			.always(function(){
+
+		}).always(function(){
 				$('.loader').hide();
 			});
 		});
