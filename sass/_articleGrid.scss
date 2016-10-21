@@ -8,7 +8,7 @@
 
 	li {
 	width: 100%;
-	
+
 
     @include tablet {
 	  	width:50%;
@@ -16,7 +16,7 @@
 	 @include desktop {
 	  	width: 25%;
 	  }
-	
+
 }
 	.article_images {
 	  height:400px;
@@ -26,7 +26,7 @@
 	  background-repeat: no-repeat;
 	  color:white;
 	  display:flex;
-	  
+
 	}
 
 
@@ -41,7 +41,11 @@
 	  	padding-bottom: .5rem;
 	  }
 
-	  
+		&:hover {
+			p {
+				transform: translateY(0%);
+			}
+		}
 
 	a {
 		text-decoration: none;
@@ -49,4 +53,3 @@
 
 
 }
-
