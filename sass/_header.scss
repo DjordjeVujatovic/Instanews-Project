@@ -1,4 +1,4 @@
-/*
+
 .siteHeaderLarge {
 	height:90vh;
 	@extend .flexCenter;
@@ -114,60 +114,6 @@
 		}
 	}
 }
-*/
-
-.siteHeaderLarge {
-	@include mobile{
-	display: flex;
-    flex-wrap: wrap;
-	height: 90vh;
-	}
-	@include tablet {
-		justify-content:center;
-	}
-
-	.logoAndForm {
-	@include mobile{
-	align-self: center;
-    margin: 0 auto;
-	display:flex;
-	flex-wrap: wrap;
-	 }
-	}
-	.logoLarge {
-	@include mobile {
-	flex-basis: 100%;
-    text-align: center;
-	display:flex;
-	}
-	@include tablet {
-		flex-basis:50%;
-		align-self:center;
-	}
-
-	img {
-	@include mobile {
-	align-self: flex-end;
-	margin: 0 auto;
-	margin-bottom: 2rem;
-	}
-	@include tablet {
-		width:100%;
-	  }
-	 }
-	}
-	.searchForm{
-	@include mobile {
-	width: 100%;
-    text-align: center;
-	}
-	@include tablet {
-		flex-basis:50%;
-		align-self:center;
-		text-align:left;
-	 }
-	}
-}
 .loader {
 	display:none;
 	img {
@@ -176,18 +122,3 @@
 		margin:0 auto;
 	}
 }
-.siteHeaderSmall {
-	height: auto;
-
-	.logoLarge img {
-		height:50%;
-		width:50%;
-	}
-}
-.searchForm {
-
-	.sections {
-		width:7rem;
-	}
-}
-
