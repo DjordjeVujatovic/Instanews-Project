@@ -91,8 +91,7 @@ body {
   background-color: #000;
   font-size: 16px;
   color: white;
-  max-width: 1500px;
-  height: 100%; }
+  max-width: 1500px; }
 
 .container {
   margin: 0 auto;
@@ -112,7 +111,7 @@ body {
       flex-basis: 100%;
   transition: 2s; }
   .siteHeaderLarge .logoLarge {
-    height: 30vh;
+    height: 25vh;
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
     text-align: center;
@@ -165,7 +164,7 @@ body {
   transition: 1s ease-in; }
   @media (min-width: 600px) {
     .siteHeaderSmall {
-      max-height: 20vh;
+      height: 20vh;
       -ms-flex-pack: start;
           justify-content: flex-start; }
       .siteHeaderSmall form {
@@ -218,7 +217,7 @@ body {
   height: auto;
   margin-bottom: 10%; }
   .articles li {
-    width: 97%; }
+    width: 100%; }
     @media (min-width: 600px) {
       .articles li {
         width: 50%; } }

@@ -8,7 +8,7 @@
 	transition: 2s;
 
 	.logoLarge {
-		height: 30vh;
+		height: 25vh;
 		flex-basis:100%;
 		text-align:center;
 		padding-bottom:2rem;
@@ -73,7 +73,7 @@
 	transition: 1s ease-in;
 	
 		@include tablet {
-			max-height:20vh;
+			height:20vh;
 			justify-content: flex-start;
 
 			form{
