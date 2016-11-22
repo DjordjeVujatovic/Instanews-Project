@@ -8,10 +8,13 @@
 	transition: 2s;
 
 	.logoLarge {
-		height: 30vh;
 		flex-basis:100%;
 		text-align:center;
 		padding-bottom:2rem;
+
+		img {
+			height:100%;
+		}
 	}
 }
 

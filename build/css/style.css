@@ -111,11 +111,12 @@ body {
       flex-basis: 100%;
   transition: 2s; }
   .siteHeaderLarge .logoLarge {
-    height: 30vh;
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
     text-align: center;
     padding-bottom: 2rem; }
+    .siteHeaderLarge .logoLarge img {
+      height: 100%; }
 
 #sections {
   width: 8rem; }
