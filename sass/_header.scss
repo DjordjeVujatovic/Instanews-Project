@@ -1,4 +1,4 @@
-
+/*
 .siteHeaderLarge {
 	height:90vh;
 	@extend .flexCenter;
@@ -114,6 +114,28 @@
 		}
 	}
 }
+*/
+.siteHeaderLarge {
+	display: flex;
+    flex-wrap: wrap;
+	height: 90vh;
+	
+	.logoLarge {
+	flex-basis: 100%;
+    text-align: center;
+	display:flex;
+
+	img {
+	align-self: flex-end;
+	margin: 0 auto;
+	margin-bottom: 2rem;
+	 }
+	}
+	.searchForm{
+	width: 100%;
+    text-align: center;
+	}
+}
 .loader {
 	display:none;
 	img {
@@ -122,3 +144,18 @@
 		margin:0 auto;
 	}
 }
+.siteHeaderSmall {
+	height: auto;
+
+	.logoLarge img {
+		height:50%;
+		width:50%;
+	}
+}
+.searchForm {
+
+	.sections {
+		width:7rem;
+	}
+}
+

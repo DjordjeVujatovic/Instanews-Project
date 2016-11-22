@@ -1,4 +1,4 @@
-.siteFooter {
+/*.siteFooter {
 	@extend .flexCenter;
 	height: 10vh;
 	width:100%;
@@ -12,4 +12,8 @@
 	justify-content: flex-start;
     padding-left: 2rem;
  }
+}
+*/
+.siteFooter {
+	text-align:center;
 }
