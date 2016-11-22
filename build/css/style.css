@@ -131,7 +131,7 @@ body {
       text-align: left;
       margin-top: 5.5rem; }
       .siteHeaderLarge .logoLarge img {
-        height: 9rem; }
+        height: 100%; }
         .siteHeaderLarge .logoLarge img .searchForm {
           -ms-flex-preferred-size: 75%;
               flex-basis: 75%; } }
