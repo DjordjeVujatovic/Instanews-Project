@@ -9,6 +9,7 @@ var gulp =   require('gulp'),
     notify = require('gulp-notify'),
     autoprefixer = require('gulp-autoprefixer'),
     cssnano = require('gulp-cssnano'),
+    babel = require('gulp-babel'),
     rename = require('gulp-rename');
 
 var plumberErrorHandler={
@@ -19,6 +20,7 @@ var plumberErrorHandler={
 };
 gulp.task('js', function(){
     gulp.src('./js/*.js') // what files do we want gulp to consume?
+      .pipe(babel({presets: ['es2015']}))
       .pipe(plumber(plumberErrorHandler))
       .pipe(uglify()) //uglify minifies the files //.pipe chains files together
       .pipe(rename({ extname: '.min.js' })) //  we're renaming the uglify file
