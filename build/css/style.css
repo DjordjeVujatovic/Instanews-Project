@@ -90,7 +90,8 @@ table {
 body {
   background-color: #000;
   font-size: 16px;
-  color: white; }
+  color: white;
+  width: 100%; }
 
 .container {
   margin: 0 auto;
@@ -110,7 +111,7 @@ body {
       flex-basis: 100%;
   transition: 2s; }
   .siteHeaderLarge .logoLarge {
-    height: 34vh;
+    height: 30vh;
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
     text-align: center;
