@@ -12,10 +12,15 @@
 }
 
 /*Mixins*/
-
+$mobile:400px;
 $tablet: 600px;
 $desktop: 1000px;
 
+@mixin mobile {
+	@media (min-width: $mobile) {
+		@content;
+	}
+}
 @mixin tablet {
 	@media (min-width: $tablet) {
 		@content;
