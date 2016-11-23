@@ -145,7 +145,8 @@ body {
   height: auto;
   transition: max-height 1s ease; }
   .siteHeaderSmall .logoLarge {
-    margin-top: 1rem; }
+    margin-top: 1rem;
+    max-height: 100%; }
   .siteHeaderSmall select {
     margin-bottom: 1rem; }
   @media (min-width: 600px) {
