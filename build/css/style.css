@@ -139,7 +139,7 @@ body {
     margin: 0 auto; }
 
 .siteHeaderSmall {
-  height: 25vh; }
+  height: 35vh; }
   @media (min-width: 600px) {
     .siteHeaderSmall {
       height: 12vh;
