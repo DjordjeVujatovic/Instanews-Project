@@ -2,7 +2,7 @@ body {
 	background-color: #000;
 	font-size:16px;
 	color: white;
-	max-width:1500px;
+	max-width:100%;
 }
 
 .container {
@@ -13,4 +13,4 @@ body {
 	@extend .flexCenter;
 	flex-wrap: wrap;
 	max-width: 1500px
-	}
+}

@@ -91,7 +91,7 @@ body {
   background-color: #000;
   font-size: 16px;
   color: white;
-  max-width: 1500px; }
+  max-width: 100%; }
 
 .container {
   margin: 0 auto;
@@ -130,7 +130,8 @@ body {
   margin-bottom: 1rem; }
 
 .innerSearchForm select {
-  width: 9rem; }
+  width: 10rem;
+  height: 2rem; }
 
 .loader {
   display: none; }
@@ -141,7 +142,7 @@ body {
 
 .siteHeaderSmall {
   height: auto;
-  transition: 1s ease-in; }
+  transition: 2s ease-in; }
   .siteHeaderSmall .logoLarge {
     margin-top: 1rem; }
   .siteHeaderSmall select {
