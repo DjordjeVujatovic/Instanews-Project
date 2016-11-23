@@ -1,4 +1,4 @@
-![Alt text](/Screen Shot 2016-11-22 at 9.31.50 PM ?raw=true)
+![Alt text](/instanews-screenshot.png)
 # Project 2 - New York Times API App - Instanews
 
 ## Summary
