@@ -5,7 +5,7 @@
 	width:100%;
     align-items: center;
 	justify-content: center;
-	transition: max-height 2s ease;
+	transition: max-height 2s;
 	@include tablet {
 		flex-direction:row;
 	}
@@ -39,7 +39,7 @@
 }
 .siteHeaderSmall {
 	height:auto;
-	transition: max-height 1s ease;
+	transition: max-height 1s;
 
 	.logoLarge {
 	  margin-top:1rem;
