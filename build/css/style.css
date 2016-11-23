@@ -80,7 +80,7 @@ table {
   font-style: normal;
   font-size: 16px; }
 
-.flexCenter, .container, .siteHeaderLarge, .siteFooter {
+.flexCenter, .container, .siteFooter {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -102,105 +102,34 @@ body {
   max-width: 1500px; }
 
 .siteHeaderLarge {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
   height: 90vh;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -ms-flex-preferred-size: 100%;
-      flex-basis: 100%;
-  transition: 2s; }
-  .siteHeaderLarge .logoLarge {
-    -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
-    text-align: center;
-    padding-bottom: 2rem; }
-    .siteHeaderLarge .logoLarge img {
-      height: 100%; }
-
-#sections {
-  width: 8rem; }
-
-@media (min-width: 600px) {
-  .siteHeaderLarge {
-    -ms-flex-align: center;
-        align-items: center;
-    height: auto; }
-    .siteHeaderLarge .logoLarge {
-      -ms-flex-preferred-size: 25%;
-          flex-basis: 25%;
-      text-align: left;
-      margin-top: 5.5rem;
-      height: 100%; }
-      .siteHeaderLarge .logoLarge img {
-        height: 100%; }
-        .siteHeaderLarge .logoLarge img .searchForm {
-          -ms-flex-preferred-size: 75%;
-              flex-basis: 75%; } }
-
-@media (min-width: 1000px) {
-  .siteHeaderLarge {
-    -ms-flex-pack: start;
-        justify-content: flex-start; }
-    .siteHeaderLarge .logoLarge {
-      padding-left: 2rem;
-      -ms-flex-preferred-size: 25%;
-          flex-basis: 25%; }
-      .siteHeaderLarge .logoLarge img {
-        height: 13.75rem; } }
-
-@media (min-width: 1000px) {
-  form {
-    height: 6rem;
-    width: 13rem;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-align: end;
-        align-items: flex-end;
-    -ms-flex-preferred-size: 25%;
-        flex-basis: 25%; } }
-
-.siteHeaderSmall {
-  max-height: 40vh;
+  width: 100%;
+  -ms-flex-align: center;
+      align-items: center;
   -ms-flex-pack: center;
-      justify-content: center;
-  transition: 1s ease-in; }
+      justify-content: center; }
   @media (min-width: 600px) {
-    .siteHeaderSmall {
-      height: 20vh;
-      -ms-flex-pack: start;
-          justify-content: flex-start; }
-      .siteHeaderSmall form {
-        height: 4rem; } }
+    .siteHeaderLarge {
+      -ms-flex-direction: row;
+          flex-direction: row; } }
   @media (min-width: 1000px) {
-    .siteHeaderSmall form {
-      -ms-flex-align: start;
-          align-items: flex-start;
-      height: 4rem; } }
-  .siteHeaderSmall .logoLarge {
-    max-height: 24vh; }
-    @media (min-width: 600px) {
-      .siteHeaderSmall .logoLarge {
-        margin: 0;
-        max-height: 12vh;
-        -ms-flex-preferred-size: 13%;
-            flex-basis: 13%;
-        margin-left: 5rem;
-        padding-bottom: 1rem; } }
-    @media (min-width: 1000px) {
-      .siteHeaderSmall .logoLarge {
-        margin-left: 2rem;
-        padding-left: 0;
-        -ms-flex-preferred-size: 11%;
-            flex-basis: 11%;
-        padding-bottom: 1rem; } }
-    .siteHeaderSmall .logoLarge img {
-      height: 10rem; }
-      @media (min-width: 600px) {
-        .siteHeaderSmall .logoLarge img {
-          height: 5rem;
-          -ms-flex-pack: start;
-              justify-content: flex-start; } }
+    .siteHeaderLarge {
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+      margin-left: 2rem; } }
+  .siteHeaderLarge .logoLarge {
+    margin-bottom: 1rem; }
+
+.innerSearchForm p {
+  text-transform: uppercase;
+  margin-bottom: 1rem; }
+
+.innerSearchForm select {
+  width: 9rem; }
 
 .loader {
   display: none; }
@@ -208,6 +137,25 @@ body {
     height: 100px;
     display: block;
     margin: 0 auto; }
+
+.siteHeaderSmall {
+  height: 25vh; }
+  @media (min-width: 600px) {
+    .siteHeaderSmall {
+      height: 12vh;
+      -ms-flex-pack: start;
+          justify-content: flex-start; } }
+  @media (min-width: 1000px) {
+    .siteHeaderSmall {
+      -ms-flex-pack: start;
+          justify-content: flex-start; } }
+  .siteHeaderSmall .logoLarge {
+    text-align: center; }
+    .siteHeaderSmall .logoLarge img {
+      width: 50%; }
+    @media (min-width: 600px) {
+      .siteHeaderSmall .logoLarge img {
+        width: 35%; } }
 
 .articles {
   display: -ms-flexbox;

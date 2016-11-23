@@ -1,128 +1,58 @@
-
 .siteHeaderLarge {
-	height:90vh;
-	@extend .flexCenter;
-	flex-wrap:wrap;
-	align-content:center;
-	flex-basis:100%;
-	transition: 2s;
-
-	.logoLarge {
-		flex-basis:100%;
-		text-align:center;
-		padding-bottom:2rem;
-
-		img {
-			height:100%;
-		}
-	}
-}
-
-#sections {
-	width:8rem;
-}
-
-@include tablet {
-		.siteHeaderLarge {
-			align-items:center;
-			height:auto;
-
-
-			.logoLarge {
-				flex-basis:25%;
-				text-align:left;
-				margin-top:5.5rem;
-				height:100%;
-
-			img {
-				height: 100%;
-
-			.searchForm {
-				flex-basis:75%;
-			}
-		}
-
-		}
-	}
-}
-@include desktop {
-	.siteHeaderLarge {
-		justify-content:flex-start;
-
-		.logoLarge {
-		  padding-left:2rem;
-		  flex-basis:25%;
-
-		 img {
-		  	height:13.75rem;
-		
-		
-		   }
-		}
-	}
-}
-
-@include desktop {
-	form {
-	height: 6rem;
-    width: 13rem;
-    display: flex;
-    align-items: flex-end;
-    flex-basis: 25%;
-	}
-}
-
-.siteHeaderSmall {
-	max-height:40vh;
+	display: flex;
+    flex-direction: column;
+	height: 90vh;
+	width:100%;
+    align-items: center;
 	justify-content: center;
-	transition: 1s ease-in;
-	
-		@include tablet {
-			height:20vh;
-			justify-content: flex-start;
-
-			form{
-				height:4rem;
-			}
+	@include tablet {
+		flex-direction:row;
 	}
-		@include desktop {
-			form {
-				align-items:flex-start;
-				height:4rem;
-			}
-		}
-	.logoLarge {
-	max-height:24vh;
-		@include tablet {
-			margin:0;
-			max-height:12vh;
-			flex-basis: 13%;
-			margin-left:5rem;
-			padding-bottom:1rem;
-	}
-		@include desktop{
-			margin-left:2rem;
-			padding-left:0;
-			flex-basis: 11%;
-			padding-bottom:1rem;
+	@include desktop {
+		justify-content:flex-start;
+		margin-left:2rem;
 	}
 
-
-	img {
-		height: 10rem;
-		@include tablet {
-			height:5rem;
-			justify-content:flex-start;
-		
-		}
-		}
+	.logoLarge{
+		margin-bottom:1rem;
 	}
 }
+.innerSearchForm {
+    p{
+		text-transform: uppercase;
+		margin-bottom:1rem;
+	}
+	select {
+		width:9rem;
+	}
+}
+
 .loader {
 	display:none;
-	img {
-		height:100px;
-		display:block;
-		margin:0 auto;
+	img{
+	  height:100px;
+	  display:block;
+	  margin:0 auto;
+	}
+}
+.siteHeaderSmall {
+	height:25vh;
+	@include tablet {
+		height:12vh;
+		justify-content: flex-start;
+	}
+	@include desktop {
+	    justify-content: flex-start;
+	}
+	.logoLarge {
+	 text-align: center;
+	img{
+		width:50%;
+	   }
+	   @include tablet {
+		   img {
+			   width:35%;
+		   }
+	   }
 	}
 }
