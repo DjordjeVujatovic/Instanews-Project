@@ -2,9 +2,8 @@ $( document ).ready(function() {
 
 
 	$('#sections').on('change', function (event) {
-		$('.loader').show();
 		event.preventDefault();
-
+		$('.loader').show();
 
 		$('.siteHeaderLarge').addClass('siteHeaderSmall');
 
