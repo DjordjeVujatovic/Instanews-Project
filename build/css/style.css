@@ -130,7 +130,8 @@ body {
       -ms-flex-preferred-size: 25%;
           flex-basis: 25%;
       text-align: left;
-      margin-top: 5.5rem; }
+      margin-top: 5.5rem;
+      height: 100%; }
       .siteHeaderLarge .logoLarge img {
         height: 100%; }
         .siteHeaderLarge .logoLarge img .searchForm {
