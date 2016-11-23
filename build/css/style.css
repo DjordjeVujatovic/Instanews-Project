@@ -173,7 +173,8 @@ body {
       align-items: flex-end;
   width: 100%;
   height: auto;
-  margin-bottom: 10%; }
+  margin-bottom: 10%;
+  transition: 2s ease-in; }
   .articles li {
     width: 100%; }
     @media (min-width: 600px) {
@@ -190,7 +191,9 @@ body {
     background-repeat: no-repeat;
     color: white;
     display: -ms-flexbox;
-    display: flex; }
+    display: flex;
+    transition: 10s ease-in;
+    overflow: hidden; }
   .articles a {
     text-decoration: none; }
 
@@ -199,7 +202,8 @@ body {
       align-self: flex-end;
   background-color: rgba(0, 0, 0, 0.55);
   width: 100%;
-  line-height: 1.5rem; }
+  line-height: 1.5rem;
+  padding-left: 5px; }
 
 @media (min-width: 1000px) {
   .article_images:hover .abstract {

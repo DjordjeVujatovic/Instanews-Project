@@ -5,6 +5,7 @@
 	width:100%;
 	height: auto;
 	margin-bottom: 10%;
+	transition: 2s ease-in;;
 
 	li {
 	width: 100%;
@@ -26,6 +27,8 @@
 	  background-repeat: no-repeat;
 	  color:white;
 	  display:flex;
+	  transition: 10s ease-in;
+	  overflow:hidden;
 	  
 	}
 
@@ -40,6 +43,7 @@
 	  	background-color: rgba(0,0,0,0.55);
 	  	width:100%;
 	  	line-height:1.5rem;
+	    padding-left:5px;
   }
 @include desktop {
 	.article_images:hover .abstract {
