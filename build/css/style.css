@@ -140,11 +140,15 @@ body {
     margin: 0 auto; }
 
 .siteHeaderSmall {
-  height: 35vh;
+  height: auto;
   transition: 1s ease-in; }
+  .siteHeaderSmall .logoLarge {
+    margin-top: 1rem; }
+  .siteHeaderSmall select {
+    margin-bottom: 1rem; }
   @media (min-width: 600px) {
     .siteHeaderSmall {
-      height: 20vh;
+      height: auto;
       -ms-flex-pack: start;
           justify-content: flex-start; } }
   @media (min-width: 1000px) {

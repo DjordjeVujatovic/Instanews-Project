@@ -37,10 +37,18 @@
 	}
 }
 .siteHeaderSmall {
-	height:35vh;
+	height:auto;
 	transition: 1s ease-in;
+
+	.logoLarge {
+	  margin-top:1rem;
+	}
+	select{
+		margin-bottom:1rem;
+	}
+	
 	@include tablet {
-		height:20vh;
+		height:auto;
 		justify-content: flex-start;
 	}
 	@include desktop {
