@@ -124,7 +124,8 @@ body {
 @media (min-width: 600px) {
   .siteHeaderLarge {
     -ms-flex-align: center;
-        align-items: center; }
+        align-items: center;
+    height: auto; }
     .siteHeaderLarge .logoLarge {
       -ms-flex-preferred-size: 25%;
           flex-basis: 25%;
