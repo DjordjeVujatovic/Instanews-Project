@@ -111,7 +111,8 @@ body {
   -ms-flex-align: center;
       align-items: center;
   -ms-flex-pack: center;
-      justify-content: center; }
+      justify-content: center;
+  transition: 2s; }
   @media (min-width: 600px) {
     .siteHeaderLarge {
       -ms-flex-direction: row;
@@ -139,7 +140,8 @@ body {
     margin: 0 auto; }
 
 .siteHeaderSmall {
-  height: 35vh; }
+  height: 35vh;
+  transition: 1s ease-in; }
   @media (min-width: 600px) {
     .siteHeaderSmall {
       height: 12vh;

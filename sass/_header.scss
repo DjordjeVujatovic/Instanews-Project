@@ -5,6 +5,7 @@
 	width:100%;
     align-items: center;
 	justify-content: center;
+	transition: 2s;
 	@include tablet {
 		flex-direction:row;
 	}
@@ -37,6 +38,7 @@
 }
 .siteHeaderSmall {
 	height:35vh;
+	transition: 1s ease-in;
 	@include tablet {
 		height:12vh;
 		justify-content: flex-start;
