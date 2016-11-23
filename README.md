@@ -1,3 +1,4 @@
+![Alt text](/Screen Shot 2016-11-22 at 9.31.50 PM ?raw=true)
 # Project 2 - New York Times API App - Instanews
 
 ## Summary
@@ -9,7 +10,10 @@ Instanews allows users to instantly retreive the top 12 news articles from any p
 	* HTML5 
 	* CSS3 (Flexbox, media queries)
 	* SCSS (variables, @mixins, @extends, partials)
-	* JavaScript libraries jQuery and Heapbox
+	* JavaScript 
+	* JQuery
+	* AJAX
+	* API's
 	* Mobile first approach to coding & design (RWD)
 	* Gulp
 
