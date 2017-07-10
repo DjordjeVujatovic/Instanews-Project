@@ -1,6 +1,8 @@
 ![Alt text](/instanews-screenshot.png)
 # Project 2 - New York Times API App - Instanews
 
+https://djordjevujatovic.github.io/Instanews-Project/
+
 ## Summary
 
 Instanews allows users to instantly retreive the top 12 news articles from any particular selected category. 
